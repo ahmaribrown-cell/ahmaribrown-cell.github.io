@@ -37,7 +37,7 @@ var circles = [];
 drawCircle();
 drawCircle();
 drawCircle();
-drawCircle();
+drawCircle(); 
 drawCircle();
 
 
@@ -76,10 +76,10 @@ game.checkCirclePosition(circle[4]);
           
 
             // TODO 8 / TODO 9 : Iterate over the array
-  for (var i = 0: i < circle.length; i++) {}
+  for (var i = 0: i < circle.length; i++) {
 physikz.updatePosition(circles[i]);
 game.checkCirclePosition(circles[i]);
-           
+  } 
             
         
     
